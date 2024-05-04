@@ -10,7 +10,7 @@
 
 新建文件 cookie.txt 登录 shequ.codemao.cn
 
-通过任意方法获取作用域为 .codemao.cn 的 Cookie 并粘贴进去
+通过任意方法获取作用域为 .codemao.cn 的 Cookie 并粘贴进去（截至今天，只需要 authxxxxx 即可）
 
 之后运行脚本即可
 
