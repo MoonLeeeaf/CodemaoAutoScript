@@ -8,6 +8,8 @@ const https = require("https")
 const fs = require("fs")
 const process = require("process")
 
+console.log(" ===== 自动化点赞收藏 by 满月叶 ===== ")
+
 let collect = false
 
 const headers = {
@@ -103,6 +105,7 @@ process.stdin.once('readable', () => {
     if (chunk !== null) {
         if ("y" == chunk.trim().toLowerCase())
             collect = true
+        console.log("初始化完毕, 自动化, 启动!")
         main()
         process.stdin.end()
     }
