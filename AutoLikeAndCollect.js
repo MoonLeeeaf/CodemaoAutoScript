@@ -89,7 +89,7 @@ async function main() {
                 likeAndCollect(i.work_id)
                 // 寻找推荐的作品
                 findRecommend(i.work_id)
-                await sleep(Math.random() * 2000)
+                await sleep(Math.random() * 5000)
             }
         })
     }).end()
