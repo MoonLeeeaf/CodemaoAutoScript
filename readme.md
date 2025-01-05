@@ -1,3 +1,5 @@
+bcm is a piece of shit
+
 ## 编程猫自动化
 
 如题所见, 这是为全自动化而设计的 Node.js 脚本
